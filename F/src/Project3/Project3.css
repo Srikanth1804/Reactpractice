@@ -1,0 +1,546 @@
+/* Form1 */
+#mobile img{
+    width: 300px;
+    margin-left: 100px;
+    margin-bottom:-17px;
+}
+
+#form-card{
+    background-color:rgb(26, 5, 46);
+    color: white;
+}
+
+
+
+#form-mail{
+    padding-left: 10px;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+#form-pwd{
+    padding-left: 10px;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+#form-btn{
+    background-color:rgb(26, 5, 46);
+    color: white;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#form-txt{
+        margin-left: -10px;
+}
+
+#form2{
+    margin-left: 60px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+/* Media-Query */
+
+@media screen and (max-width:1200px) {
+    #mobile img{
+        margin-left: 60px;
+    }
+}
+@media screen and (max-width:992px) {
+    #mobile img{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:1198px) {
+    #form2{
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width:991px) {
+    #form-mail{
+        padding-left: 10px;
+        padding-right: 30px;
+       
+    }
+    
+    #form-pwd{
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+    #form-btn{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media screen and (max-width:767px) {
+    #form-mail{
+        padding-left: 10px;
+        padding-right: 10px;
+       
+    }
+    
+    #form-pwd{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #form-btn{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #form2{
+        margin-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    #mobile img{
+        margin-left: 100px;
+    }
+    #form-mail{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 500px;
+       
+    }
+    
+    #form-pwd{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 500px;
+    }
+    #form-btn{
+        padding-left:180px;
+        padding-right: 180px;
+    }
+
+}
+@media screen and (max-width:550px) {
+    #mobile img{
+        margin-left: 90px;
+    }
+    #form-mail{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 450px;
+       
+    }
+    
+    #form-pwd{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 450px;
+    }
+    #form-btn{
+        padding-left:160px;
+        padding-right: 160px;
+    }
+
+}
+@media screen and (max-width:550px) {
+    #mobile img{
+        margin-left: 80px;
+    }
+    #form-btn{
+        padding-left:150px;
+        padding-right: 150px;
+    }
+
+}
+@media screen and (max-width:495px) {
+    #mobile img{
+        margin-left: 70px;
+    }
+    #form-mail{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 400px;
+       
+    }
+    
+    #form-pwd{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 400px;
+    }
+    #form-btn{
+        padding-left:140px;
+        padding-right: 140px;
+    }
+
+}
+@media screen and (max-width:470px) {
+    #mobile img{
+        margin-left: 50px;
+    }
+    #form-btn{
+        padding-left:130px;
+        padding-right: 130px;
+    }
+}
+@media screen and (max-width:450px) {
+    #mobile img{
+        margin-left: 50px;
+    }
+    #form-btn{
+        padding-left:125px;
+        padding-right: 125px;
+    }
+}
+@media screen and (max-width:445px) {
+    #mobile img{
+        margin-left: 40px;
+    }
+    #form-mail{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 350px;
+       
+    }
+    
+    #form-pwd{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 350px;
+    }
+    #form-btn{
+        padding-left:110px;
+        padding-right: 110px;
+    }
+
+}
+@media screen and (max-width:415px) {
+    #mobile img{
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width:415px) {
+    #mobile img{
+        margin-left: 30px;
+    }
+    #form-btn{
+        padding-left:105px;
+        padding-right: 105px;
+    }
+}
+@media screen and (max-width:400px) {
+    #mobile img{
+        margin-left: 20px;
+    }
+    #form-btn{
+        padding-left:100px;
+        padding-right: 100px;
+    }
+}
+@media screen and (max-width:395px) {
+    #mobile img{
+        margin-left: 20px;
+    }
+    #form-mail{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 300px;
+       
+    }
+    
+    #form-pwd{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 300px;
+    }
+    #form-btn{
+        padding-left:90px;
+        padding-right: 90px;
+    }
+
+}
+@media screen and (max-width:370px) {
+    #mobile img{
+        margin-left: 10px;
+    }
+    #form-btn{
+        padding-left:80px;
+        padding-right: 80px;
+    }
+}
+@media screen and (max-width:350px) {
+    #mobile img{
+        margin-left: 5px;
+    }
+    #form-btn{
+        padding-left:75px;
+        padding-right: 75px;
+    }
+}
+@media screen and (max-width:340px) {
+    #mobile img{
+        margin-left: 5px;
+    }
+    #form-mail{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 250px;
+       
+    }
+    
+    #form-pwd{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 250px;
+    }
+    #form-btn{
+        padding-left:65px;
+        padding-right: 65px;
+    }
+
+}
+@media screen and (max-width:320px) {
+    #mobile img{
+        margin-left: 5px;
+    }
+    #form-btn{
+        padding-left:60px;
+        padding-right: 60px;
+    }
+}
+@media screen and (max-width:310px) {
+    #mobile img{
+        margin-left: 2px;
+    }
+    #form-btn{
+        padding-left:55px;
+        padding-right: 55px;
+    }
+}
+@media screen and (max-width:300px) {
+    #mobile img{
+        margin-left: 2px;
+    }
+    #form-btn{
+        padding-left:50px;
+        padding-right: 50px;
+    }
+}
+@media screen and (max-width:290px) {
+    #mobile img{
+        margin-left: 0px;
+    }
+    #form-mail{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 200px;
+       
+    }
+    
+    #form-pwd{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 200px;
+    }
+    #form-btn{
+        padding-left:40px;
+        padding-right: 40px;
+    }
+
+}
+@media screen and (max-width:270px) {
+    #form-btn{
+        padding-left:30px;
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width:250px) {
+    #form-btn{
+        padding-left:25px;
+        padding-right: 25px;
+    }
+}
+@media screen and (max-width:240px) {
+    #mobile img{
+        margin-left: 0px;
+    }
+    #form-mail{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 160px;
+       
+    }
+    
+    #form-pwd{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 160px;
+    }
+    #form-btn{
+        padding-left:20px;
+        padding-right: 20px;
+    }
+
+}
+@media screen and (max-width:230px) {
+    #form-btn{
+        padding-left:15px;
+        padding-right: 15px;
+    }
+}
+@media screen and (max-width:220px) {
+    #form-btn{
+        padding-left:10px;
+        padding-right: 10px;
+    }
+}
+@media screen and (max-width:210px) {
+    #form-btn{
+        padding-left:5px;
+        padding-right: 5px;
+    }
+}
+@media screen and (max-width:200px) {
+    #mobile img{
+        margin-left: 0px;
+    }
+    #form-mail{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 125px;
+       
+    }
+    
+    #form-pwd{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 125px;
+    }
+    #form-btn{
+        padding-left:0px;
+        padding-right: 0px;
+    }
+
+}
+@media screen and (max-width:165px) {
+    #form-mail{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100px;
+       
+    }
+    
+    #form-pwd{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100px;
+    }
+}
+@media screen and (max-width:140px) {
+    #form-mail{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80px;
+       
+    }
+    
+    #form-pwd{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80px;
+    }
+}
+@media screen and (max-width:120px) {
+    #form-mail{
+    margin-left: -10px;   
+       
+    }
+    #label-mail{
+        margin-left: -10px;   
+    }
+    
+    #form-pwd{
+        margin-left: -10px;  
+    }
+    #label-pwd{
+        margin-left: -10px;   
+    }
+}
+@media screen and (max-width:110px) {
+    #form-mail{
+    margin-left: -15px;   
+      width: 70px; 
+    }
+    #label-mail{
+        margin-left: -15px;   
+    }
+    
+    #form-pwd{
+        margin-left: -15px; 
+        width: 70px;  
+    }
+    #label-pwd{
+        margin-left: -15px;   
+    }
+}
+@media screen and (max-width:100px) {
+    #form-mail{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 60px;
+       
+    }
+    
+    #form-pwd{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 60px;
+    }
+}
+@media screen and (max-width:85px) {
+    #form-mail{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 50px;
+       
+    }
+    #label-mail{
+        width: 50px;
+    }
+    
+    #form-pwd{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 50px;
+    }
+    #label-pwd{
+        width: 50px;
+    }
+}
+@media screen and (max-width:70px) {
+    #form-mail{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 40px;
+       
+    }
+    #label-mail{
+        width: 50px;
+    }
+    
+    #form-pwd{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 40px;
+    }
+    #label-pwd{
+        width: 50px;
+    }
+    #form-btn{
+        margin-left: -15px;
+        width: 70px;
+    }
+}
